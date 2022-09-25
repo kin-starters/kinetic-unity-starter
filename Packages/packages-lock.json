@@ -1,12 +1,5 @@
 {
   "dependencies": {
-    "com.kinetic.sdk": {
-      "version": "https://github.com/kin-labs/kinetic-unity.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "c8011a2445c31445fdcdd110c2b39a9ffd24d407"
-    },
     "com.unity.collab-proxy": {
       "version": "1.17.2",
       "depth": 0,
@@ -161,6 +154,13 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "org.kin.kinetic-unity": {
+      "version": "https://github.com/kin-labs/kinetic-unity-sdk.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "21f8e2de53d115fcd1d15df12b94f2867cf60935"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
