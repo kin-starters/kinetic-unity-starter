@@ -29,7 +29,7 @@ public class WalletScreen : MonoBehaviour
         if(GameController.Keypair == null) return;
         var balance = await GameController.KineticSdk.GetBalance( account: GameController.Keypair.PublicKey );
         txtBalance.gameObject.transform.parent.gameObject.SetActive(true);
-        txtBalance.text = (float.Parse(balance.Balance) / Math.Pow(10, 5)).ToString("0.00") + " KIN";
+        txtBalance.text = (balance.Balance ?? "0.00") + " KIN";
     }
     
     public async void GetTokenAccounts()
